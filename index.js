@@ -1,9 +1,10 @@
 let c = 2000
 let d = 100
 
-const divide = (c, d) => c/d
-   console.log(divide(c,d));
 
+const divide = () => c/d
+const result=divide();
+console.log(result);
 
 let e = 2
 const square = (e) => e*e;
